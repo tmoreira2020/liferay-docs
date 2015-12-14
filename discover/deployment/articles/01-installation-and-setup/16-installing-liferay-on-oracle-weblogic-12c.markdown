@@ -230,10 +230,10 @@ and add the following contents:
 To enable security on your WebLogic server and direct the server to your policy
 file, open the `setDomainEnv.[cmd|sh]` file in your domain's folder. Then set
 the `-Djava.security.manager` Java option and set the property
-`-Djava.security.policy==` to the location of your `weblogic.policy` file. You
+`-Djava.security.policy=` to the location of your `weblogic.policy` file. You
 can specify both settings on the same line like this: 
 
-    -Djava.security.manager -Djava.security.policy==$WL_HOME/server/lib
+    -Djava.security.manager -Djava.security.policy=$WL_HOME/server/lib
 
 The double equals sign tells the app server to use this policy file on top of
 any existing security policies. 
