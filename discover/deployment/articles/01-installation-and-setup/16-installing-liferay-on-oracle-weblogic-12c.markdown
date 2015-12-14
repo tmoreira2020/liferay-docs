@@ -220,7 +220,7 @@ grant Liferay Portal access to your server.
 
 First, you'll grant Liferay access to your server. This configuration opens all
 permissions--you can fine-tune your policy's permissions later. Create a policy
-file named `weblogic.policy` in your `$WL_HOME/server/lib` folder
+file named `weblogic.policy` in your `$WL_HOME/server/lib/weblogic.policy` folder
 and add the following contents:
 
     grant {
