@@ -16,13 +16,13 @@ There are several steps involved in creating a form field type:
 +$$$
 
 **Note:** To avoid manually creating your own project, use
-[BladeCLI](/developer/tutorials/-/knowledge_base/7-0/blade-cli). If you have
+[BladeCLI](/develop/tutorials/-/knowledge_base/7-0/blade-cli). If you have
 Blade CLI on your machine, there's a template for creating form fields you can
 leverage using the following command syntax:
 
     blade create -t form-field [ADDITIONAL OPTIONS] [PROJECT NAME]
 
-See the [BladeCLI](/developer/tutorials/-/knowledge_base/7-0/blade-cli)
+See the [BladeCLI](/develop/tutorials/-/knowledge_base/7-0/blade-cli)
 documentation for more information, such as the answer to yuor question, What
 are those additional options?"
 
